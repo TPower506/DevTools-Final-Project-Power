@@ -84,13 +84,38 @@
         <br>
         <h3>Please Contact Me @</h3>
         <br>
-        <p>
-            Tony J. Power<br>
-            123 RWD Street, Saint John, NB.<br>
-            tpower01@mynbcc.ca<br>
-            506-555-5555<br>
+<div class="container">
+  <form action="action_page.php">
 
-        </p>
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+	  <option value="usa">Europe</option>
+	  <option value="usa">Afghanistan</option>
+	  <option value="usa">Albania</option>
+	  <option value="usa">Algeria</option>
+	  <option value="usa">Barbados</option>
+	  <option value="usa">Brazil</option>
+	  <option value="usa">Burundi	</option>
+	  	  <option value="usa">Mexico</option>
+
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
     </center>
     <br>
     <br>
